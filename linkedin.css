@@ -1,0 +1,334 @@
+*{
+
+    box-sizing: border-box;
+}
+.container{
+    width:1270px;
+    height:1390px;
+    border:4px solid black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+/* Style on Navbar */
+.navbar{
+    width:1250px;
+    height: 80px;
+    background-color: white;
+    border: none;
+    margin: 10px auto;
+}
+/* Style on linkdin logo */
+#logo{
+    width:30px;
+    height:30px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: 70px;
+} 
+
+/*style on search button*/
+.icon {
+    padding-left: 50px;
+    background: url("./images/search\ icon.png") no-repeat;
+    background-size: 15px;
+    background-position: 10px 10px;
+    background-color:rgb(230, 243, 250);
+    width:250px;
+    height:30px;
+    border: none;
+    margin-top: 25px;
+    
+  }
+  .header-right li{
+    display:inline;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+}
+/* style on navbar link and icon */
+.header-left{
+    padding-left: 20px;
+    position: relative;
+    right: 0px;
+    left:200px;
+    top:15px;
+}
+.header-left li{
+    display: flex;
+    float: left;
+    margin-right: 40px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    justify-content: center;
+    position: relative;
+    
+
+}
+/* style on navbar link text */
+.nav-text{
+    color: gray;
+    font-size: small;
+    margin-top: -15px;
+    text-decoration: none;
+}
+/* Style on Messaging and Notification   highlighted numbers */
+button{
+    height:20px;
+    width:15px;
+    background-color: rgb(160, 3, 3);
+    border: none;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 12px;
+    z-index: 1;
+    color:white;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.line{
+    display: flex;
+    float: left;
+    width:0.5px;
+    height:40px;
+    background-color:rgb(212, 208, 208);
+    margin-left: -30px;
+    margin-top: 10px;
+}
+/* style on link button*/
+.icon1{
+    /* background: url('./images/home\ icon.png') no-repeat; */
+    /* background-size: 20px; */
+}
+.icon2{
+    /* background: url('./images/my\ network.png') no-repeat; */
+    /* background-size: 30px; */
+}
+.icon3{
+    /* background: url('./images/job1\ icon.png') no-repeat; */
+    /* background-size: 20px; */
+}
+.icon4{
+    /* background: url('./images/message.jpg') no-repeat; */
+    /* background-size: 20px; */
+}
+.icon5{
+    /* background: url('./images/notification.jpg') no-repeat; */
+    /* background-size: 20px; */
+}
+h6{
+    font-family: sans-serif;
+    color: rgb(212, 208, 208);
+}
+
+/* Style on main part */
+.main{
+    margin: 10px auto;
+    width:1250px;
+    height:1300px;
+    background-color: rgba(224, 217, 217, 0.705);
+    position: relative;
+     top:-10px;
+     right:0px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: repeat(3,1fr);
+
+}
+/* Style on sidebar1 (leftside) */
+#sidebar1{
+    grid-row: 1/-1;
+    width:230px;
+    height:800px;
+    background-color: white;
+    margin: 10px auto;
+    margin-left: 100px;
+    
+}
+.profiledetail{
+    width:230px;
+    height:450px;
+    background: url(./images/background.jpg) no-repeat;
+     background-size: 250px 70px;
+     border-radius: 5%;
+     border:0.05px  solid rgb(214, 209, 209);
+}
+ #profileimg{
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:30px;
+    left:70px;
+    border-radius: 50%;
+}
+.text{
+    font-size: small;
+    color:rgb(216, 212, 212);
+    margin-left: 10px;;
+}
+span{
+    float:right;
+    color:blue;
+    
+    
+}
+.news{
+    width:230px;
+    height:350px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5%;
+     border:0.05px  solid rgb(214, 209, 209);
+}
+.text1{
+    font-size: normal;
+    color:rgb(156, 152, 152);
+}
+/* Style on Post 1(Middle) */
+#post1{
+    grid-row: 1/2;
+    display: inline;
+    width:500px;
+    height:100px;
+    background-color: white;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#profilepost{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:5px;
+    left:5px;
+    border-radius: 50%;
+}
+#postbox{
+    width:80%;
+    height:30%;
+    margin-top:0px;
+    position: relative;
+    left:10px;
+    top:-10px;
+    border-radius: 20px;
+    border: 1px solid rgb(206, 201, 201);
+}
+#post1 li{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+.post-text{
+    color: rgb(212, 208, 208);
+    font-size: small;
+    margin-top: 0px;
+    gap:10px;
+    text-decoration: none;
+    margin-right: 40px;
+    /* padding: 5px; */
+}
+/* Style on Post 2(middle) */
+#post2{
+    grid-row: 2/3;
+    width:500px;
+    height:420px;
+    background-color: white;
+    position: absolute;
+   left:350px;
+   top:-710px;
+   
+}
+#post2 li{
+     display: inline;
+     float: left;
+     margin-top: -10px;
+     margin-left: 5px;
+}
+/* Style on Post 3(middle) */
+#post3{
+    grid-row: 3/4;
+    width:500px;
+    height:500px;
+    background-color: white;
+    position: absolute;
+   left:350px;
+   top:-540px;
+}
+#post3 li{
+    display: inline;
+    float: left;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+/* Style on Sidebar 2 (rightside) */
+#sidebar2{
+    grid-row: 1/2;
+    width:280px;
+    height:290px;
+    border-radius: 5%;
+    background-color: white;
+    margin-left: -30px;
+}
+
+.sidebar2-text{
+    /* font-weight: bold; */
+    font-size: 14px;
+    color: black;
+    
+}
+.sidebar-note{
+    color:rgb(212, 208, 208);
+    display: inline;
+    float: left;
+    font-size: small;
+}
+/* Style on Sidebar 3 (right side) */
+#sidebar3{
+    grid-row: 2/3;
+    width:280px;
+    height:180px;
+    background-color: white;
+    border-radius: 5%;
+    margin-left: -30px;
+
+}
+/* Style on sidebar4 (right side) */
+#sidebar4{
+    grid-row: 3/4;
+    width:280px;
+    height:320px;
+    background-color: white;
+    border-radius: 5%;
+    margin-left: -30px;
+    margin-top: 15px;
+    
+}
+.text4{
+    position: absolute;
+    /* top:-5px; */
+}
+.sidebar-input{
+    width:180px;
+    height:30px;
+    border-radius: 20px;
+    /* display: inline; */
+    margin-left: 40px;
+    text-align: center;
+    
+}
+.sidebar-input2{
+    width:140px;
+    height:30px;
+    border-radius: 20px;
+    /* display: inline; */
+    margin-left: 40px;
+    text-align: center;
+    
+}
